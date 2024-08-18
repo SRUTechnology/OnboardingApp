@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "boarding-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/boarding/BoardingWebPart.js",
+          "manifest": "./src/webparts/boarding/BoardingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BoardingWebPartStrings": "lib/webparts/boarding/loc/{locale}.js"
+  }
+}
